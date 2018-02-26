@@ -1,5 +1,47 @@
+html {
+    font-size: 100%;
+}  
+
 canvas#pbd {
     padding: 0;
-    margin: auto;
+    margin: 3rem;
     display: block;
+    transition: background .2s ease-in;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-family: "Lucida sans", monospace;
+    font-weight: 300;
+    text-align: right;
+}
+
+.column {
+    float: left;
+    width: 12%;
+}
+
+.main {
+    float: left;
+    width: 88%;
+}
+
+input#px {
+    width: 3rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 1rem;
+    text-align: center;
+}
+
+input[type=button] {
+    background-color: rgb(88, 87, 179);
+    border: none;
+    color: white;
+    padding: .5rem .75rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: .2rem;
 }

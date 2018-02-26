@@ -1,10 +1,22 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <div id="controls"></div>
-        <canvas id="pbd" width="500px" height="500px"></canvas>
+        <div class="column">
+            <div id="header">
+                <h1>Pale blue d&#9679;t</h1>
+            </div>
+
+            <div id="controls">
+                <input type="number" name="pix" value="10" id="px" step="5" min="5" max="50" required>
+                <input type="button" value="draw" id="controls__draw">
+            </div>
+        </div>
+
+        <div class="main" id="canvas-container">
+        </div>
 
         <script type="text/javascript" src="canvas.js"></script>
     </body>
